@@ -1,0 +1,58 @@
+body {
+    background: url("https://img.freepik.com/free-photo/solid-gypsum-wall-textured-backdrop_53876-129487.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    max-height: max-content;
+}
+
+h2 {
+  color: rgb(0, 255, 255);
+  text-align: center;
+  font-size: 50px;
+}
+
+p {
+    color: rgb(0, 132, 255);
+    font-size: 30px;
+}
+
+div .l7{
+    display: flex;
+    justify-content: center;
+}
+
+header a {
+    position: fixed;
+    left: 1200px;
+    float: right;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    border: 5px thick white;
+    border-radius: 10px;
+    background-color: rgb(255, 59, 59);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: rgb(255, 109, 109);
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+footer a {
+    background-color: rgb(255, 58, 58);
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    bottom: 20px;
+    color: white;
+}
